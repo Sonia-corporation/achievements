@@ -2,7 +2,7 @@
   "*.{ts,js}": [
     "npm run lint:hook"
   ],
-  "*.{md,json,yml,html}": [
+  "*.{md,json,yml,svelte}": [
     "npm run prettier:hook"
   ]
 }

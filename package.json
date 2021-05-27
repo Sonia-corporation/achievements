@@ -43,16 +43,12 @@
       "config": "./scripts/commitizen.js"
     }
   },
-  "akitaCli": {
-    "template": "ts"
-  },
   "engines": {
     "node": "14.17.x",
     "npm": "7"
   },
   "private": false,
   "files": [
-    "dist/*",
     "CHANGELOG.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
@@ -95,11 +91,13 @@
     "@semantic-release/git": "9.0.0",
     "@semantic-release/github": "7.2.3",
     "@sonia-corporation/conventional-changelog": "1.0.1",
-    "@sveltejs/kit": "next",
+    "@sveltejs/adapter-static": "1.0.0-next.11",
+    "@sveltejs/kit": "1.0.0-next.109",
     "@typescript-eslint/eslint-plugin": "4.25.0",
     "@typescript-eslint/parser": "4.25.0",
     "all-contributors-cli": "6.20.0",
     "commitizen": "4.2.4",
+    "cross-env": "7.0.3",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "eslint": "7.27.0",

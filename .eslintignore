@@ -5,3 +5,4 @@ dist
 dist-local-dev
 node_modules
 reports
+docs

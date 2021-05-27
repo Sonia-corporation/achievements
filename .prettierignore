@@ -9,3 +9,4 @@ package-lock.json
 static
 build
 .prettierrc
+docs

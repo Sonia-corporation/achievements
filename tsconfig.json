@@ -24,17 +24,9 @@
     "target": "es2015",
     "typeRoots": ["node_modules/@types", "node_modules/@types/", "types"],
     "lib": ["es2018", "dom"],
-    "types": ["node", "jest"],
+    "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "plugins": [
-      {
-        "transform": "ts-auto-mock/transformer",
-        "cacheBetweenTests": false,
-        "debug": false
-      }
-    ]
   },
-  "include": ["./src/**/*.ts", "./scripts/**/*.js", "./jest/*.js", "./jest/*.ts", "./jest.config.js"],
-  "exclude": ["./src/**.*.spec.ts", "./jest/test.ts"]
+  "include": ["./src/**/*.ts", "./scripts/**/*.js"],
 }

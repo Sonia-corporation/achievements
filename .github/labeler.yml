@@ -6,7 +6,3 @@ documentation:
   - LICENSE
   - PULL_REQUEST_TEMPLATE.md
   - README.md
-
-test:
-  - src/**/*.spec.ts
-  - src/**/*.spec.js

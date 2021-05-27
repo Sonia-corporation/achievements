@@ -1,1 +1,0 @@
-export const NUMERICAL_COLOR_CANDY = 15562905;

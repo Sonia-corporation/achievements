@@ -67,8 +67,8 @@
         "assets": [
           {
             "path": "dist/index.js",
-            "name": "sonia-${nextRelease.gitTag}.js",
-            "label": "Sonia v${nextRelease.gitTag} distribution"
+            "name": "achievements-${nextRelease.gitTag}.js",
+            "label": "Achievements v${nextRelease.gitTag} distribution"
           }
         ]
       }

@@ -1,1 +1,0 @@
-export const NUMERICAL_COLOR_SILK = 14082034;

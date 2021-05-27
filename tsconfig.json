@@ -2,15 +2,16 @@
   "compileOnSave": false,
   "compilerOptions": {
     "allowJs": true,
+    "checkJs": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noFallthroughCasesInSwitch": true,
     "strictNullChecks": true,
     "downlevelIteration": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "importHelpers": true,
-    "module": "CommonJS",
+    "module": "es2020",
     "outDir": "./dist",
     "sourceMap": true,
     "declaration": false,
@@ -20,13 +21,20 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
+    "importsNotUsedAsValues": "error",
+    "isolatedModules": true,
     "strict": true,
-    "target": "es2015",
+    "target": "es2019",
     "typeRoots": ["node_modules/@types", "node_modules/@types/", "types"],
-    "lib": ["es2018", "dom"],
+    "lib": ["es2020"],
     "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "$lib/*": ["src/lib/*"]
+    }
   },
-  "include": ["./src/**/*.ts", "./scripts/**/*.js"],
+  "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte", "scripts/*.js", "svelte.config.js"]
 }

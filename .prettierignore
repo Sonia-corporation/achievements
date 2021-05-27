@@ -5,3 +5,8 @@ dist-local-dev
 node_modules
 .eslintcache
 package-lock.json
+.svelte-kit
+static
+build
+.prettierrc
+docs

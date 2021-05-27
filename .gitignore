@@ -52,5 +52,7 @@ token.json
 # System Files
 .DS_Store
 Thumbs.db
-src/environment/secret-environment.json
 
+.svelte-kit
+build
+functions

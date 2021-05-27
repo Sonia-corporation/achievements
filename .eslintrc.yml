@@ -1,6 +1,7 @@
 root: true
 env:
-  es6: true
+  browser: true
+  es2017: true
   node: true
 extends:
   - 'eslint:recommended'
@@ -19,18 +20,18 @@ globals:
   SharedArrayBuffer: readonly
   createInstance: readonly
 parserOptions:
-  ecmaVersion: 2018
+  ecmaVersion: 2019
   sourceType: module
   project: ./tsconfig.json
 parser: '@typescript-eslint/parser'
 plugins:
+  - svelte3
   - '@typescript-eslint'
   - typescript-sort-keys
   - prettier
   - progress
   - jsdoc
   - import
-  - rxjs
 settings:
   import/extensions:
     - .js
@@ -40,6 +41,9 @@ settings:
       - .ts
   import/cache:
     lifetime: Infinity
+  svelte3/typescript: true
+ignorePatterns:
+  - '*.cjs'
 rules:
   progress/activate: 1
   '@typescript-eslint/member-ordering':
@@ -407,6 +411,9 @@ rules:
   rxjs/prefer-observer: error
   rxjs/throw-error: error
 overrides:
+  - files:
+      - '*.svelte'
+    processor: 'svelte3/svelte3'
   - files:
       - '*.js'
     rules:

@@ -65,9 +65,9 @@
   "scripts": {
     "\n# RUN SCRIPTS:": "",
     "start": "svelte-kit dev",
-    "preview": "svelte-kit preview",
     "\n# BUILD SCRIPTS:": "",
     "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
     "\n# LINT SCRIPTS:": "",
     "lint": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet **/*.{js,ts}",
     "lint:hook": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet",

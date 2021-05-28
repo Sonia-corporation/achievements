@@ -62,7 +62,7 @@
     "\n# RUN SCRIPTS:": "",
     "start": "svelte-kit dev",
     "\n# BUILD SCRIPTS:": "",
-    "build": "svelte-kit build",
+    "build": "svelte-kit build --verbose",
     "build:ci": "npm run clean:dist && svelte-kit build && touch build/.nojekyll",
     "preview": "svelte-kit preview",
     "deploy": "gh-pages -d dist -t true",

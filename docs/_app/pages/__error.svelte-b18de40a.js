@@ -1,1 +1,0 @@
-import{S as s,i as r,s as a,t as e,g as t,f as o,G as n,d as c}from"../chunks/vendor-60ec356f.js";function u(s){let r;return{c(){r=e("Error page")},l(s){r=t(s,"Error page")},m(s,a){o(s,r,a)},p:n,i:n,o:n,d(s){s&&c(r)}}}export default class extends s{constructor(s){super(),r(this,s,null,u,a,{})}}

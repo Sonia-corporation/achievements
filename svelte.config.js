@@ -6,8 +6,8 @@ const config = {
   extensions: [`.svelte`],
   kit: {
     adapter: adapter({
-      assets: `docs`,
-      pages: `docs`,
+      assets: `build`,
+      pages: `build`,
     }),
     amp: false,
     appDir: `_app`,
@@ -22,8 +22,8 @@ const config = {
     floc: false,
     hydrate: true,
     paths: {
-      assets: ``,
-      base: ``,
+      assets: `/achievements`,
+      base: `/achievements`,
     },
     prerender: {
       crawl: true,

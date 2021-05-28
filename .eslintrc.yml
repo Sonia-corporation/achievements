@@ -42,8 +42,6 @@ settings:
   import/cache:
     lifetime: Infinity
   svelte3/typescript: true
-ignorePatterns:
-  - '*.cjs'
 rules:
   progress/activate: 1
   '@typescript-eslint/member-ordering':

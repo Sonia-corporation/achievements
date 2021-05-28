@@ -4,7 +4,7 @@
 
 **Quality:**  
 ![GitHub last commit](https://img.shields.io/github/last-commit/sonia-corporation/achievements?style=flat-square)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a15731adba332ed97275/maintainability?style=flat-square)](https://codeclimate.com/github/Sonia-corporation/achievements/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2b7b30e0304bb4349905/maintainability?style=flat-square)](https://codeclimate.com/github/Sonia-corporation/achievements/maintainability)
 [![CodeFactor](https://www.codefactor.io/repository/github/sonia-corporation/achievements/badge)](https://www.codefactor.io/repository/github/sonia-corporation/achievements)
 [![DeepScan grade](https://deepscan.io/api/teams/10568/projects/13410/branches/225363/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=10568&pid=13410&bid=225363)
 ![GitHub issues](https://img.shields.io/github/issues-raw/sonia-corporation/achievements?style=flat-square)
@@ -45,22 +45,25 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ## Developing
 
-```bash
-npm run dev
+Build and watch:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+npm run start
 ```
 
 ## Building
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+Build:
 
 ```bash
 npm run build
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+Preview the production build:
+
+```bash
+npm run preview
+```
 
 ## Contributing
 

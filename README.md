@@ -5,8 +5,8 @@
 **Quality:**  
 ![GitHub last commit](https://img.shields.io/github/last-commit/sonia-corporation/achievements?style=flat-square)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2b7b30e0304bb4349905/maintainability?style=flat-square)](https://codeclimate.com/github/Sonia-corporation/achievements/maintainability)
-[![CodeFactor](https://www.codefactor.io/repository/github/sonia-corporation/achievements/badge)](https://www.codefactor.io/repository/github/sonia-corporation/achievements)
-[![DeepScan grade](https://deepscan.io/api/teams/10568/projects/13410/branches/225363/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=10568&pid=13410&bid=225363)
+[![CodeFactor](https://www.codefactor.io/repository/github/sonia-corporation/achievements/badge?style=flat-square)](https://www.codefactor.io/repository/github/sonia-corporation/achievements)
+[![DeepScan grade](https://deepscan.io/api/teams/10568/projects/17354/branches/395127/badge/grade.svg?style=flat-square)](https://deepscan.io/dashboard#view=project&tid=10568&pid=17354&bid=395127)
 ![GitHub issues](https://img.shields.io/github/issues-raw/sonia-corporation/achievements?style=flat-square)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/sonia-corporation/achievements?style=flat-square)
 ![Build](https://github.com/Sonia-corporation/achievements/workflows/Build/badge.svg?style=flat-square)

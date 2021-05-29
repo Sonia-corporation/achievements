@@ -66,8 +66,8 @@
       {
         "assets": [
           {
-            "path": "dist/index.js",
-            "name": "achievements-${nextRelease.gitTag}.js",
+            "path": "build",
+            "name": "achievements-${nextRelease.gitTag}",
             "label": "Achievements v${nextRelease.gitTag} distribution"
           }
         ]

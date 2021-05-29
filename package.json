@@ -60,7 +60,7 @@
   "type": "module",
   "scripts": {
     "\n# RUN SCRIPTS:": "",
-    "start": "svelte-kit dev",
+    "start": "svelte-kit dev --port 3001",
     "\n# BUILD SCRIPTS:": "",
     "build": "svelte-kit build --verbose",
     "build:ci": "npm run clean:dist && svelte-kit build && touch build/.nojekyll",

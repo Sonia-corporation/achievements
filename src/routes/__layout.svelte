@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
   import { base } from '$app/paths';
   import SvelteVersion from '../../lib/components/svelte-version/svelte-version.svelte';
 </script>

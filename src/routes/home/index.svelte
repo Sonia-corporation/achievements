@@ -1,4 +1,4 @@
-<script>
+<script lang="js">
   import { base } from '$app/paths';
   import { dev } from '$app/env';
 

@@ -15,7 +15,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{assetsBase}/favicon/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="{assetsBase}/favicon/android-chrome-192x192.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="{assetsBase}/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="{assetsBase}/site.webmanifest" />
+  {#if !dev}
+    <link rel="manifest" href="{assetsBase}/site.webmanifest" />
+  {/if}
   <link rel="mask-icon" href="{assetsBase}/favicon/safari-pinned-tab.svg" color="#ffb300" />
 
   <!-- Specific meta for this page -->
@@ -42,4 +44,4 @@
   <meta content="summary_large_image" name="twitter:card" />
 </svelte:head>
 
-Index
+<h2>Index</h2>

@@ -57,3 +57,4 @@ Thumbs.db
 .svelte-kit
 build
 functions
+static/tailwind.min.css

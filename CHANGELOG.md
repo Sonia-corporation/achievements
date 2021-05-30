@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.1.1](https://github.com/Sonia-corporation/achievements/compare/1.1.0...1.1.1) (2021-05-30)
+
+
+### :bug: Bug Fixes
+
+* **release:** include the whole dist for GitHub release ([e20173f](https://github.com/Sonia-corporation/achievements/commit/e20173f910758e9e60a1203767e2dee94d766123))
+
 # [1.1.0](https://github.com/Sonia-corporation/achievements/compare/1.0.0...1.1.0) (2021-05-30)
 
 

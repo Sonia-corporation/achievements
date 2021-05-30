@@ -65,7 +65,7 @@
     "build": "svelte-kit build --verbose",
     "build:ci": "npm run clean:build && svelte-kit build && touch build/.nojekyll",
     "preview": "svelte-kit preview",
-    "deploy": "gh-pages -d build -t true",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d build -t true",
     "\n# LINT SCRIPTS:": "",
     "lint": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet **/*.{js,ts}",
     "lint:hook": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet",

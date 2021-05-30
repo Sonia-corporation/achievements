@@ -67,8 +67,8 @@
     "preview": "svelte-kit preview",
     "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d build -t true",
     "\n# LINT SCRIPTS:": "",
-    "lint:ts": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet **/*.{js,ts}",
-    "lint:ts:ci": "eslint --quiet **/*.{js,ts}",
+    "lint:ts": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet **/*.{js,ts,cjs}",
+    "lint:ts:ci": "eslint --quiet **/*.{js,ts,cjs}",
     "lint:ts:hook": "eslint --fix --fix-type suggestion,layout,problem --cache --cache-location .eslintcache --quiet",
     "lint:other": "prettier --write --ignore-unknown --plugin-search-dir=. . **/*.{md,json,yml,html,svelte,webmanifest}",
     "lint:other:ci": "prettier --check --ignore-unknown --plugin-search-dir=. . **/*.{md,json,yml,html,svelte,webmanifest}",
@@ -138,6 +138,7 @@
     "shx": "0.3.3",
     "svelte": "3.38.2",
     "svelte-preprocess": "4.7.3",
+    "tailwindcss": "2.1.2",
     "tslib": "2.2.0",
     "typescript": "4.3.2"
   }

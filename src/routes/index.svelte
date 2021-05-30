@@ -5,7 +5,7 @@
   const metaTitle = 'Index - Achievements';
   const metaDescription = 'Index page to check and manage the achievements of your IT team';
   const assetsBase = dev ? '' : base;
-  const url = `${assetsBase}/index`;
+  const url = `${assetsBase}/`;
 </script>
 
 <svelte:head>

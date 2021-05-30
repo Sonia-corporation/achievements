@@ -1,50 +1,67 @@
 {
-    "name": "Achievements",
-    "short_name": "Achievements",
-    "icons": [
-        {
-            "src": "/favicon/android-chrome-36x36.png",
-            "sizes": "36x36",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-48x48.png",
-            "sizes": "48x48",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-72x72.png",
-            "sizes": "72x72",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-96x96.png",
-            "sizes": "96x96",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-144x144.png",
-            "sizes": "144x144",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon/android-chrome-384x384.png",
-            "sizes": "384x384",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "start_url": "https://sonia-corporation.github.io/achievements",
-    "display": "standalone"
+  "$schema": "https://json.schemastore.org/web-manifest.json",
+  "name": "Achievements",
+  "short_name": "Achievements",
+  "description": "Check and manage the achievements of your IT team",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "dir": "ltr",
+  "lang": "en",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+        "src": "/achievements/favicon/android-chrome-36x36.png",
+        "sizes": "36x36",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-48x48.png",
+        "sizes": "48x48",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-256x256.png",
+        "sizes": "256x256",
+        "type": "image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src": "/achievements/favicon/android-chrome-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+    }
+  ]
 }
+

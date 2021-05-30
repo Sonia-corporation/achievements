@@ -62,7 +62,7 @@
     "\n# RUN SCRIPTS:": "",
     "start": "svelte-kit dev --port 3001",
     "\n# BUILD SCRIPTS:": "",
-    "build": "svelte-kit build --verbose",
+    "build": "npm run clean:build && svelte-kit build --verbose",
     "build:ci": "npm run clean:build && svelte-kit build && touch build/.nojekyll",
     "preview": "svelte-kit preview",
     "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d build -t true",

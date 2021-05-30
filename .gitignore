@@ -21,7 +21,8 @@ chrome-profiler-events*.json
 speed-measure-plugin*.json
 
 # IDEs and editors
-.idea
+.idea/*
+!.idea/achievements.iml
 .project
 .classpath
 .c9/
@@ -56,3 +57,4 @@ Thumbs.db
 .svelte-kit
 build
 functions
+static/tailwind.min.css

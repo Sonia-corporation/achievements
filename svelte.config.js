@@ -1,5 +1,9 @@
 import adapter from '@sveltejs/adapter-static';
+import autoprefixer from 'autoprefixer';
+import postcssAutoreset from 'postcss-autoreset';
+import postcssInitial from 'postcss-initial';
 import preprocess from 'svelte-preprocess';
+import tailwindcss from 'tailwindcss';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -36,7 +40,14 @@ const config = {
     target: `#svelte`,
     trailingSlash: `never`,
   },
-  preprocess: preprocess(),
+  preprocess: preprocess({
+    postcss: {
+      plugins: [postcssAutoreset, postcssInitial, tailwindcss, autoprefixer],
+    },
+    scss: {
+      prependData: `@import 'lib/styles/imports.scss';`,
+    },
+  }),
 };
 
 export default config;

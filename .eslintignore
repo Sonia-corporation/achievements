@@ -7,3 +7,6 @@ node_modules
 reports
 docs
 build
+scripts
+svelte.config.js
+*.cjs

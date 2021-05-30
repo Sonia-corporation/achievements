@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+# [1.1.0](https://github.com/Sonia-corporation/achievements/compare/1.0.0...1.1.0) (2021-05-30)
+
+
+### :bug: Bug Fixes
+
+* **index:** fix a bad url failing the build ([e6fa0b4](https://github.com/Sonia-corporation/achievements/commit/e6fa0b4a7885f414ed45e0afd738d81db0555a52))
+* **link:** fix bad link to go back to the home page ([2e905f5](https://github.com/Sonia-corporation/achievements/commit/2e905f527529330b4333b083d06cf2a769d0ba29))
+
+
+### :rocket: Features
+
+* **seo:** add custom meta for each page ([6202088](https://github.com/Sonia-corporation/achievements/commit/62020887e79de65b08324dee44a9e3cb61ff61dc))
+
 # [1.0.0](https://github.com/Sonia-corporation/achievements/compare/...1.0.0) (2021-05-29)
 
 

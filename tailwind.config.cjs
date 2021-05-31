@@ -1,20 +1,26 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   darkMode: 'media',
-  plugins: [],
-  purge: [
-    './src/**/*.html',
-    './src/**/*.js',
-    './src/**/*.ts',
-    './src/**/*.svelte',
-    './lib/**/*.html',
-    './lib/**/*.js',
-    './lib/**/*.ts',
-    './lib/**/*.svelte',
-  ],
+  purge: ['./src/**/*.{html,svelte,css,js,ts}', './lib/**/*.{html,svelte,css,js,ts}', './tailwind.config.cjs'],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
+  prefix: 'tw-',
+  important: '#achievements-app',
+  separator: ':',
+  mode: 'jit',
+  colors: {
+    gray: colors.coolGray,
+    blue: colors.lightBlue,
+    red: colors.rose,
+    pink: colors.fuchsia,
+  },
+  fontFamily: {
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+  },
+  corePlugins: {
+    preflight: true,
   },
 };

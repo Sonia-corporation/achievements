@@ -148,7 +148,7 @@
     "prettier": "2.3.1",
     "prettier-plugin-svelte": "2.3.0",
     "rimraf": "3.0.2",
-    "semantic-release": "17.4.3",
+    "semantic-release": "17.4.4",
     "shx": "0.3.3",
     "svelte": "3.38.2",
     "svelte-preprocess": "4.7.3",

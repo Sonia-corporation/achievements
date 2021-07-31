@@ -152,7 +152,7 @@
     "shx": "0.3.3",
     "svelte": "3.41.0",
     "svelte-preprocess": "4.7.4",
-    "tailwindcss": "2.2.4",
+    "tailwindcss": "2.2.7",
     "tailwindcss-cli": "0.1.2",
     "tslib": "2.3.0",
     "typescript": "4.3.5"

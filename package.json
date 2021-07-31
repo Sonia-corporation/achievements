@@ -141,7 +141,7 @@
     "madge": "5.0.1",
     "node-notifier": "10.0.0",
     "npm-watch": "0.10.0",
-    "postcss": "8.3.5",
+    "postcss": "8.3.6",
     "postcss-cli": "8.3.1",
     "postcss-import": "14.0.2",
     "postcss-load-config": "3.1.0",

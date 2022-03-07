@@ -107,7 +107,7 @@
     "install-git-hooks": "husky install && shx rm -rf .git/hooks && shx ln -s ../.husky .git/hooks"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/changelog": "6.0.1",
     "@semantic-release/git": "9.0.0",
     "@semantic-release/github": "7.2.3",
     "@sonia-corporation/conventional-changelog": "1.0.1",

@@ -32,7 +32,7 @@ jobs:
     needs: [CurrentTag]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:

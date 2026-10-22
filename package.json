@@ -150,7 +150,7 @@
     "rimraf": "3.0.2",
     "semantic-release": "17.4.4",
     "shx": "0.3.3",
-    "svelte": "3.41.0",
+    "svelte": "3.59.2",
     "svelte-preprocess": "4.7.4",
     "tailwindcss": "2.2.7",
     "tailwindcss-cli": "0.1.2",

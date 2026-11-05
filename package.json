@@ -155,6 +155,6 @@
     "tailwindcss": "2.2.7",
     "tailwindcss-cli": "0.1.2",
     "tslib": "2.3.0",
-    "typescript": "4.3.5"
+    "typescript": "4.9.5"
   }
 }
